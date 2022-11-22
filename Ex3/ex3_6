@@ -1,0 +1,10 @@
+def ex6(n):
+    """list -> none"""
+    number=max(n)-min(n)
+    if number in n:
+        return ":)"
+    else:
+        return "(:"
+    if len(n) == 0:
+        return ":/"
+ex6([1, 2, 5, 8, 3, 9])
