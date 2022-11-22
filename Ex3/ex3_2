@@ -1,0 +1,10 @@
+def ex2(n):
+    """list -> int"""
+    List = []
+    for i in range(len(n) - 1):
+        y= n[i] * n[i+1]
+        List.append(y)
+    x=max(List)
+    return x
+ex2([3, 6, -2, -5, 7, 3])
+    
