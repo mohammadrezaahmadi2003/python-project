@@ -1,0 +1,8 @@
+def ex4(a,b,c):
+    """int -> bool"""
+    n = a * 2**b
+    if (n % c) == 0:
+        return True
+    else:
+        return False
+ex4(5,2,1)
